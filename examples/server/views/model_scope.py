@@ -3,7 +3,7 @@ from server.forms.model_scope import SubscribeForm
 # start tutorial
 import json
 from django.http import HttpResponse
-from django.core.urlresolvers import reverse_lazy
+from django.urls import reverse_lazy
 from django.views.generic.edit import FormView
 from django.utils.encoding import force_text
 
